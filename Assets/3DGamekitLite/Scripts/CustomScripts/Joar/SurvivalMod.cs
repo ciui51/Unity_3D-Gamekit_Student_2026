@@ -45,9 +45,9 @@ public class SurvivalMod : MonoBehaviour
         {
             timer -= Time.deltaTime;
             if (timer <= 0)
-           {    
-                
-            Damageable.DamageMessage msg = new Damageable.DamageMessage()
+           { 
+               
+               Damageable.DamageMessage msg = new Damageable.DamageMessage()
             { 
                 amount = 1,
                 damager = this,
